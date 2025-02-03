@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>황주경-자기소개</title>
+    <!-- favicon-->
+    <link rel="icon" type="image/x-icon" href="me.png">
+    <link rel="stylesheet" href="style.css">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/0af8d4fa80.js" crossorigin="anonymous"></script>
+    <!-- google font-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans+KR">
+</head>
+<body>
+    <header>
+        <h1><a href="#home"><i class="fa-solid fa-hands"></i> Hello JuKyung's World! <i class="fa-solid fa-hands"></a></i></h1>
+        
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="#about"><i class="fa-solid fa-hand"></i> About</a></li>
+                <li><a href="#experience"><i class="fa-solid fa-map-pin"></i> Experience</a></li>
+                <li><a href="#hobbies"><i class="fa-solid fa-magnifying-glass"></i> Hobbies</a></li>
+                <li><a href="#plans"><i class="fa-solid fa-thumbtack"></i> Plans</a></li>
+            </ul>
+        </nav> 
+    </header>
+
+    <section id="home">
+            <div class="content">
+                <img id="hello" src="thank.gif" alt="Hello">
+                <div class="emoji border-bottom-left"><img style="width: 30%; border-radius:0;" src="border.PNG" alt="border"></div>  
+                <div class="emoji emoji-bottom-left"><i class="fa-solid fa-arrow-down-long"></i></div> 
+            </div>
+    </section>
+
+    <main id="main-content">
+        <section id="about">
+            <div class="introduction-box">
+                <div class="image-section">
+                    <img src="image.jpg" alt="이미지">
+                </div>
+                <div class="info-section">
+                    <h2><strong>🙌 저를 소개합니다 :</strong></h2>
+                    <p><strong>이름 : </strong> 황주경</p>
+                    <p><strong>생년월일 : </strong> 02.02.05</p>
+                    <p><strong>전공 : </strong> 컴퓨터공학</p>
+                    <p><strong>MBTI : </strong> ISTP (귀차니즘 심함..😂)</p>
+                </div>
+                </div>
+        </section>
+
+        <section id="experience">
+            <div class="introduction-box">
+                <div class="image-slider">
+                    <img src="image6.jpg" alt="경험 1">
+                    <img src="image5.jpg" alt="경험 2">
+                    <img src="image7.jpg" alt="경험 3">
+                    <img src="image2.jpg" alt="경험 4">
+
+                    <div class="pagination">
+                        <span class="dot active" onclick="changeSlide(0, 'experience')"></span>
+                        <span class="dot" onclick="changeSlide(1, 'experience')"></span>
+                        <span class="dot" onclick="changeSlide(2, 'experience')"></span>
+                        <span class="dot" onclick="changeSlide(3, 'experience')"></span>
+                    </div>
+                </div>
+                
+                <div class="info-section">
+                    <h2><strong>📍 제일 좋았던 경험 :</strong></h2>
+                    <p><strong>🚅 친구들과 경주 여행 🚅</strong></p>
+                    <p>고등학교 졸업한 지 4년만에 <br>친구들과 겨우 시간 맞춰 다녀온 <br><strong>! 경주 여행 !</strong> 너무 행복했습니다 :)</p>
+                </div>
+                </div>
+        </section>
+
+        <section id="hobbies">
+            <div class="introduction-box">
+                <div class="image-slider">
+                    <img src="image3.jpg" alt="취미 1">
+                    <img src="image8.jpg" alt="취미 2">
+                    <img src="image9.jpg" alt="취미 3">
+
+                    <div class="pagination">
+                        <span class="dot active" onclick="changeSlide(0, 'hobbies')"></span>
+                        <span class="dot" onclick="changeSlide(1, 'hobbies')"></span>
+                        <span class="dot" onclick="changeSlide(2, 'hobbies')"></span>
+                    </div>
+                </div>
+                
+                <div class="info-section">
+                    <h2><strong>🔍 요즘 취미와 관심사 :</strong></h2>
+                    <p><strong style="text-decoration-line: underline">야구⚾ 보러 다니기</strong></p>
+                    <p>야린이지만 <strong>! 무적 LG ! </strong>팬입니다 </p>
+                    <p><strong>TMI 1. 첫 번째 사진</strong><br>23년도 한국시리즈 1차전때 <br>찍은 직관 사진인데 <br>1차전만 지고 우승했다는...🤣</p>
+                    <p><strong>TMI 2. 세 번째 사진</strong><br>LG 팬이라면 모두 다 아는<br>박동원 선수님의 딸 채이입니다<br>정말 너무 귀엽고 예뻐요...🥰</p>
+                </div>
+                </div>
+        </section>
+
+        <section id="plans">
+            <div class="introduction-box">
+                <div class="image-section">
+                    <img style="width: 90%;" src="image4.jpg" alt="이미지">
+                </div>
+                <div class="info-section">
+                    <h2><strong>📌 앞으로의 계획 : </strong></h2>
+                    <p>1️⃣<br>유레카에서 좋은 경험 많이 쌓고 <br>최선을 다해 열심히 공부해서<br><strong>! 취뽀 !</strong> 하기</p>
+                    <p>2️⃣<br>올해 안에 자격증 2개<br><strong>! 꼭 !</strong> 취득 하기</p>
+                </div>
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright © 2025 H-JUKYUNG All Rights Reserved.</p>
+        <div class="footer-icons">
+            <a href="https://www.instagram.com/wn._rud__dl/" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://rigorous-termite-44d.notion.site/181bbd280f3180ce9989ed061ad87f0e?v=65f51b1ed19a4827ae4034410a7d8554" target="_blank">
+                <img src="notion.svg" alt="Notion" class="notion-icon">
+            </a>
+            <a href="https://github.com/H-JuKyung" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
